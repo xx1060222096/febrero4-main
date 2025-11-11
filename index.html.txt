@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Febrero 4</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <main class="homepage">
+    <header class="topbar">
+      <h1 class="title" id="titleBtn">FEBRERO 4</h1>
+    </header>
+
+    <div class="workarea">
+      <aside id="sidebar" aria-label="Categorías">
+        <ul class="menu-list">
+          <li><button class="menu-btn" data-view="homepage">🏠 Home</button></li>
+          <li><button class="menu-btn" data-view="cafe">☕ Café</button></li>
+          <li><button class="menu-btn" data-view="cerveza">🍺 Cerveza</button></li>
+          <li><button class="menu-btn" data-view="licor">🥃 Licor</button></li>
+          <li><button class="menu-btn" data-view="tapas">🍢 Tapas</button></li>
+          <li><button class="menu-btn" data-view="bocadillos">🥖 Bocadillos</button></li>
+          <li><button class="menu-btn" data-view="pizzas">🍕 Pizzas</button></li>
+        </ul>
+      </aside>
+
+      <section class="mainarea">
+        <div id="panel" class="panel"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="toolbar02">
+      <p class="title-legal">BAR PIZZERIA 4 DE FEBRERO</p >
+      <p>Dirección: Plaza dels Porxos 1</p >
+      <p>Contacto: Aún no</p >
+      <p>Correo: e.xx1060222096@gmail.com</p >
+    </div>
+    <div class="toolbar01">
+      <div class="time" id="time">--:--:--</div>
+      <div class="right">Right declaration</div>
+    </div>
+  </footer>
+
+  <script type="module" src="scripts/app.js"></script>
+</body>
+</html>
